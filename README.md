@@ -20,7 +20,7 @@ You can install the plugin by adding kotlinc-lein to your `project.clj` file in 
 ```clojure
 (defproject megacorp/superservice "1.0.0-SNAPSHOT"
   :min-lein-version "2.0.0"
-  :plugins          [[kotlinc-lein "0.1.0"]])
+  :plugins          [[kotlinc-lein "0.1.0"]]
   :dependencies     [[org.jetbrains.kotlin/kotlin-runtime "1.0.2"]]
 )
 ```
