@@ -22,6 +22,7 @@ You can install the plugin by adding kotlinc-lein to your `project.clj` file in 
   :min-lein-version "2.0.0"
   :plugins          [[kotlinc-lein "0.1.0"]])
   :dependencies     [[org.jetbrains.kotlin/kotlin-runtime "1.0.2"]]
+)
 ```
 
 In addition, notice that you should also add the Kotlin Runtime dependency explicitly.
